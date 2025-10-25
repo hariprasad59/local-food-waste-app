@@ -5,16 +5,7 @@ import datetime
 
 st.title(" CRUD Operations")
 
-st.markdown("""
-    <style>
-        body {
-            background-color: #f0f5f5;
-        }
-        .stApp {
-            background-color: #f0f5f5;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 section = st.sidebar.selectbox(
     "Select Table to Manage",
