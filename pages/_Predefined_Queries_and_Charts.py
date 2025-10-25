@@ -5,16 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("SQL Insights Dashboard")
 
-st.markdown("""
-    <style>
-        body {
-            background-color: #f0f5f5;
-        }
-        .stApp {
-            background-color: #f0f5f5;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 # Add section selector
 query_type = st.sidebar.radio(
