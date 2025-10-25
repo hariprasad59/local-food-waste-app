@@ -2,5 +2,5 @@ streamlit
 pymysql
 matplotlib
 pandas
-PIL
+pillow
 numpy
