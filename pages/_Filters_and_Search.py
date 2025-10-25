@@ -1,16 +1,7 @@
 import streamlit as st
 from dbutil import run_query
 
-st.markdown("""
-    <style>
-        body {
-            background-color: #f0f5f5;
-        }
-        .stApp {
-            background-color: #f0f5f5;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 #location
 cities = run_query("SELECT DISTINCT City FROM Providers UNION SELECT DISTINCT City FROM Receivers;")
