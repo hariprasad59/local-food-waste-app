@@ -3,16 +3,6 @@ from dbutil import run_query
 
 st.title("Overview — Food Donations")
 
-st.markdown("""
-    <style>
-        body {
-            background-color: #f0f5f5;
-        }
-        .stApp {
-            background-color: #f0f5f5;
-        }
-    </style>
-""", unsafe_allow_html=True)
 
 dfp = run_query("SELECT COUNT(*) AS Providers FROM Providers;")
 dfr = run_query("SELECT COUNT(*) AS Receivers FROM Receivers;")
